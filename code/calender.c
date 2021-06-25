@@ -24,6 +24,7 @@ void gotoxy (int x, int y)
         SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), xy);
 }
 
+
 //This will set the forground color for printing in a console window.
 void SetColor(int ForgC)
 {
